@@ -30,7 +30,7 @@ username: "JoramSoch"
 **Theorem:** Let $X$ be a [random variable](/D/rvar) following a [beta distribution](/D/beta):
 
 $$ \label{eq:beta}
-X \sim \mathrm{Bet}(\alpha, \beta) \; .
+X \sim \mathrm{Beta}(\alpha, \beta) \; .
 $$
 
 Then, the [mean or expected value](/D/mean) of $X$ is
@@ -80,7 +80,7 @@ and again using the [density of the beta distribution](/P/beta-pdf), we get
 
 $$ \label{eq:beta-mean-s3}
 \begin{split}
-\mathrm{E}(X) &= \frac{\alpha}{\alpha+\beta} \int_{0}^{1} \mathrm{Bet}(x; \alpha+1, \beta) \, \mathrm{d}x \\
+\mathrm{E}(X) &= \frac{\alpha}{\alpha+\beta} \int_{0}^{1} \mathrm{Beta}(x; \alpha+1, \beta) \, \mathrm{d}x \\
 &= \frac{\alpha}{\alpha+\beta} \; .
 \end{split}
 $$
